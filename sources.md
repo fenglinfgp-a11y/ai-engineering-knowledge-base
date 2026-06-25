@@ -36,6 +36,30 @@
 | LSPosed 公开项目资料 | https://github.com/LSPosed/LSPosed | 学习 LSPosed 模块基础、环境兼容和公开项目说明。 |
 | XposedBridge 公开项目资料 | https://github.com/rovo89/XposedBridge | 学习 Xposed API 历史资料和公开接口概念。 |
 
+## 第五阶段细分参考入口
+
+| 方向 | 细分来源 | 用途 |
+| --- | --- | --- |
+| Play Billing 集成 | https://developer.android.com/google/play/billing/integrate | 查询 ProductDetails、购买回调、购买处理等合法接入流程。 |
+| Play Billing 测试 | https://developer.android.com/google/play/billing/test | 学习测试购买、测试账号和官方测试流程。 |
+| Android Logcat | https://developer.android.com/studio/command-line/logcat | 学习 Android 日志采集和过滤。 |
+| Gradle 依赖排查 | https://docs.gradle.org/current/userguide/viewing_debugging_dependencies.html | 学习依赖树和 dependencyInsight 排查。 |
+| Spring Boot Actuator | https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html | 学习健康检查和运维端点。 |
+| Spring Boot 日志 | https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.logging | 学习应用日志配置和排查。 |
+| PHP 错误配置 | https://www.php.net/manual/en/errorfunc.configuration.php | 学习 PHP 错误日志和错误显示配置。 |
+| PHP-FPM | https://www.php.net/manual/en/install.fpm.php | 学习 PHP-FPM 服务与 pool 配置。 |
+| MySQL EXPLAIN | https://dev.mysql.com/doc/refman/8.4/en/explain.html | 学习 SQL 执行计划分析。 |
+| MySQL 备份恢复 | https://dev.mysql.com/doc/refman/8.4/en/backup-and-recovery.html | 学习备份恢复原则。 |
+| MySQL mysqldump | https://dev.mysql.com/doc/refman/8.4/en/mysqldump.html | 学习逻辑备份命令。 |
+| Nginx 反向代理 | https://nginx.org/en/docs/http/ngx_http_proxy_module.html | 学习 proxy_pass 和 upstream 排查。 |
+| Nginx HTTPS | https://nginx.org/en/docs/http/configuring_https_servers.html | 学习 HTTPS 证书配置。 |
+| Ubuntu UFW | https://documentation.ubuntu.com/server/how-to/security/firewalls/ | 学习防火墙端口管理。 |
+| Docker logs | https://docs.docker.com/reference/cli/docker/container/logs/ | 学习容器日志查看。 |
+| Vue 工具链 | https://vuejs.org/guide/scaling-up/tooling.html | 学习前端源码结构和构建判断。 |
+| Nuxt 目录结构 | https://nuxt.com/docs/guide/directory-structure/nuxt | 学习 Nuxt 源码目录判断。 |
+| GitHub Secret scanning | https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning | 学习交付前敏感信息风险意识。 |
+| GitHub gitignore | https://docs.github.com/en/get-started/git-basics/ignoring-files | 学习忽略本地配置和构建产物。 |
+
 ## 相关命令
 
 ```bash
@@ -66,4 +90,3 @@ grep -R "http" . --include="*.md"
 
 - 按主题补充更细的官方页面链接，例如 Logcat、UFW、mysqldump、Spring Boot Actuator。
 - 增加“资料可信度等级”和“最后核对日期”字段。
-
